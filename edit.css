@@ -57,7 +57,9 @@
   
   
   .modal-container input[type=email],
-  .modal-container input[type=number]{
+  .modal-container input[type=number],
+  .modal-container input[type=date],
+  .modal-container input[type=time]{
     height: 28px;
     padding: 7px;
     margin: 6px 8px 18px 8px;
@@ -67,12 +69,6 @@
     box-sizing:initial;
     width: 100%;
 
-  }
-  
-  .modal-container input::-webkit-inner-spin-button,
-  .modal-container input::-webkit-outer-spin-button{
-    -webkit-appearance : none;
-    margin: 0;
   }
   
   .modal-container select{
@@ -109,6 +105,7 @@
   .modal-container #submit-btn{
     background-color: #5ab045;
     color: #ffffff;
+    margin: 0 10px;
   }
   
   .modal-container #submit-btn:hover{
